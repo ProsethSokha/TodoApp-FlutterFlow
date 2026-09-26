@@ -212,12 +212,12 @@ class _TasksWidgetState extends State<TasksWidget> {
                     },
                     text: 'Log Out',
                     options: FFButtonOptions(
-                      height: 48.79,
+                      height: 45.0,
                       padding:
                           EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                       iconPadding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).secondaryBackground,
+                      color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 font: GoogleFonts.inter(
@@ -235,9 +235,6 @@ class _TasksWidgetState extends State<TasksWidget> {
                                     .fontStyle,
                               ),
                       elevation: 0.0,
-                      borderSide: BorderSide(
-                        color: FlutterFlowTheme.of(context).primaryText,
-                      ),
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                   ),
