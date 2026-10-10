@@ -95,7 +95,7 @@ class _LoginWidgetState extends State<LoginWidget>
                   ),
                 ),
                 Container(
-                  height: 302.73,
+                  height: 297.29,
                   decoration: BoxDecoration(),
                   child: Column(
                     children: [
